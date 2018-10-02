@@ -12,7 +12,7 @@ import org.osbot.rs07.api.model.NPC;
 
 
 
-@ScriptManifest(author = "RyanGould", info = "Kills Cows and Eats Food", logo = "", name = "CowSlayer", version = 0)
+@ScriptManifest(author = "RyanGould", info = "Kills Cows and Eats Food at Lumbridge", logo = "", name = "CowSlayer", version = 0)
 
 
 
