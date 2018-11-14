@@ -12,7 +12,7 @@ import org.osbot.rs07.script.Script;
 
 import org.osbot.rs07.script.ScriptManifest;
 
-
+/* Fishes at Barbarian village and moves the player between fishing spots when one is deplenished of fish*/
 
 
 
