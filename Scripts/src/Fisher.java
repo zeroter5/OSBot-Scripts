@@ -4,7 +4,7 @@ import org.osbot.rs07.script.Script;
 
 import org.osbot.rs07.script.ScriptManifest;
 
-/*Fishes at any fishing spot doesn't deplenish and with any fishing tool you specify*/
+/*Fishes at any fishing spot that doesn't deplenish and with any fishing tool you specify*/
 
 import java.awt.Color;
 
