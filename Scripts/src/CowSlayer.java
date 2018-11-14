@@ -8,7 +8,7 @@ import java.awt.*;
 
 import org.osbot.rs07.api.model.NPC;
 
-
+/*Kills cows at the lumbridge pen and will eat food when at 
 
 
 
@@ -31,7 +31,7 @@ private enum State { //creates a new type called State
 
 
 
-ATTACK, WAIT,
+ATTACK, WAIT,EAT
 
 }
 
@@ -41,10 +41,13 @@ NPC cow = npcs.closest("Cow", "Cow calf");
 
 
 
-if (!myPlayer().isUnderAttack() && cow.isAttackable() && cow != null) { //checks if health is below 80% and the inventory is empty
+if (!myPlayer().isUnderAttack() && cow.isAttackable() && cow != null) { //Checks if player is able to attack a monster
 
 return State.ATTACK; //returns eat state
 
+}
+else if (myPlayer().getHealthPercentage() < 50){
+return State.EAT;
 }
 
 else{
@@ -82,7 +85,11 @@ log("attack");
 
 break;
 
-       
+case EAT:
+log("eat");
+
+inventory.getItem("Salmon").interact("Eat");
+break;
 
 case WAIT:
 
