@@ -8,7 +8,7 @@ import org.osbot.rs07.api.model.NPC;
 
 import org.osbot.rs07.api.ui.RS2Widget;
 
-
+/*Will attack a monster near the player and will teleport away when at low health */
 
 @ScriptManifest(author = "Ryan Gould", info = "Kills NPCs", logo = "", name = "MobKillerLITE", version = 0)
 
