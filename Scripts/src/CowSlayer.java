@@ -2,10 +2,6 @@ import org.osbot.rs07.script.Script;
 
 import org.osbot.rs07.script.ScriptManifest;
 
-import javax.swing.*;
-
-import java.awt.*;
-
 import org.osbot.rs07.api.model.NPC;
 
 /*Kills cows at the lumbridge pen and will eat food when at 
